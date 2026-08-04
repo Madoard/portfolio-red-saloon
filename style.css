@@ -1,0 +1,548 @@
+/* 1. Importação das fontes do Google (New Rocker e Manuale) */
+@import url('https://fonts.googleapis.com/css2?family=Manuale:ital,wght@0,400..800;1,400..800&family=New+Rocker&display=swap');
+
+/* 2. Fonte local */
+@font-face {
+  font-family: 'Gamerock';
+  src: url("Fontes/Gamerock.otf") format("opentype");
+}
+
+html, body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar,
+.main-layout::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.main-layout {
+  display: flex;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;    
+  min-height: 100vh;
+  overflow: visible; 
+}
+
+/* 3. Estilos gerais e Layout principal (DESKTOP) */
+body {
+  background-color: #200000;
+}
+
+.sidebar {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+.bio-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 900px;
+}
+
+/* 4. Home */
+.home {
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -300px;
+  top: 35%;
+  font-family: 'Gamerock', cursive;
+  color: #200000;
+  padding: 50px;
+  letter-spacing: 25px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #ff0101;
+  font-size: 55px;
+  background-color: #000000;
+  line-height: 0.1;
+  text-align: center;
+  border-bottom: 2px solid #FF0000;
+}
+
+/* 5. Seção Biografia */
+.hist h2 {
+  font-family: 'New Rocker', cursive;
+  font-size: 30px;
+  color: #FFF596;
+  margin-left: 250px;
+}
+
+.hist p {
+  font-family: 'Manuale', serif;
+  color: #FFFCE2;
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.6;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-130%, -50%);
+  margin-left: 525px;
+  max-width: 260px;
+}
+
+.destaque-banda {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFCE2;
+}
+
+.fotoreunida {
+  display: block;
+  width: 350px !important;
+  height: auto !important;
+  position: relative;     
+  z-index: 10;    
+  margin-left: 500px;
+}
+
+/* 6. Mídia */
+.disco {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  margin-left: 350px;
+  max-width: 250px;
+  margin-top: 300px;
+}
+
+.linha {
+  width: 100%;            
+  max-width: 1800px;      
+  margin: 710px auto 0;    
+  border: 0;              
+  height: 2px;            
+  background-color: #FF0000; 
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 370px;
+}
+
+.integrantes h2 {
+  font-family: 'New Rocker', cursive;
+  font-size: 36px;
+  color: #FFF596;
+  background-color: #000000;
+  padding: 30px;
+  margin-top:1px;
+  margin-left: 250px;
+  margin-right: -20px;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding-left: 320px;
+}
+
+.integrantes p {
+  font-family: 'Manuale', serif;
+  color: #FFFCE2;
+  font-size: 17px;
+  text-align: left;
+  line-height: 1.6;
+  position: absolute;
+  top: 135%;
+  left: 50%;
+  transform: translate(-65%, -50%);
+  margin-left: 100px;
+  z-index: 2;
+}
+
+.integrantes h3 {
+  font-family: 'Manuale', serif;
+  font-style: italic;
+  font-size: 20px;
+  color: #FFF596;
+  margin-left: 250px;
+  padding: 10px;
+  margin-top:235px;
+}
+
+.mentes {
+  font-family: 'Manuale', serif;
+  font-size: 17px;
+  color: #FFF596;
+  margin-left: 250px;
+  padding: 10px;
+  margin-top:285px;
+}
+
+.rosa-container {
+  transform: scale(0.9);
+  margin-top: -500px;
+  margin-left: 550px;
+}
+
+.logo-container {
+  transform: scale(0.8);
+  margin-left:5px;
+  margin-right: 5000px;
+  text-align: center;
+  margin-top: -200px;
+}
+
+.riff {
+  font-family: 'New Rocker', cursive;
+  font-size: 36px;
+  letter-spacing: 2px;
+  color: #FFF596;
+  background-color: #000000;
+  padding: 30px;
+  margin-top:1px;
+  margin-left: 250px;
+  margin-right: -20px; 
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding-left: 150px;
+  border-top: 2px solid #FF0000;
+  height: 120px;
+}
+
+.galeria-container {
+  transform: scale(0.6);
+  margin-left: -600px;
+  margin-top: -200px;
+}
+
+.anatomia h2 {
+  font-family: 'Manuale', serif;
+  font-style: italic;
+  font-size: 20px;
+  color: #FFF596;
+  margin-top: 900px;
+  margin-left: 250px;
+}
+
+.anatomia p {
+  font-family: 'Manuale', serif;
+  color: #FFFCE2; 
+  font-size: 17px;
+  max-width: 650px;
+  margin-left: 300px;
+  line-height: 1.6;
+}
+
+.tecnicas {
+  transform: scale(0.5);
+  margin-top: -220px;
+}
+
+.linhadois {
+  background-color: #FF0000; 
+  width: 100%;
+  max-width: 1800px;
+  margin: 710px auto 0;
+  border: 0;
+  height: 2px;
+  position: relative;
+  margin-top: -200px;
+}
+
+.estrada h2 {
+  font-family: 'New Rocker', cursive;
+  font-size: 36px;
+  color: #FFF596;
+  margin-top:100px;
+  margin-left: 250px;
+  margin-right: -20px;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding-left: 320px;
+}
+
+.estrada p {
+  font-family: 'Manuale', serif;
+  color: #FFFCE2; 
+  font-size: 17px;
+  max-width: 650px;
+  margin-left: 300px;
+  line-height: 1.6;
+}
+
+.logo {
+  transform: scale(0.6);
+  margin-top: -629px;
+  margin-left: -420px;
+}
+
+.linhaestrada {
+  transform: scale(0.9);
+  margin-top: -1200px;
+  margin-left: 162px;
+}
+
+.publico {
+  transform: scale(0.88);
+  margin-left: 149px;
+  margin-top: -100px;
+}
+
+.whatsapp {
+  transform: scale(0.5);
+  margin-left: 1050px;
+  margin-top: -350px;
+}
+
+.instagram {
+  transform: scale(0.5);
+  margin-left: 1120px;
+  margin-top: -50px;
+}
+
+.link-instagram {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn-instagram {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.link-instagram:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+
+.link-instagram:focus-visible {
+  outline: 2px solid #e1306c;
+  outline-offset: 4px;
+}
+
+.linhatres {
+  transform: scale(1.0);
+  background-color: #FF0000; 
+  width: 100%;
+  max-width: 1800px;
+  margin: 710px auto 0;
+  border: 0;
+  height: 2px;
+  margin-top: -65px; /* Ajustado de -70px para 30px para afastar a linha da plateia no PC */
+}
+
+/* =========================================================
+   REGRAS APENAS PARA DESKTOP / PC (Telas > 768px)
+   ========================================================= */
+@media screen and (min-width: 769px) {
+  .estrada .contato {
+    position: relative;
+  }
+}
+
+/* =========================================================
+   REGRAS EXCLUSIVAS PARA CELULAR (MOBILE)
+   ========================================================= */
+@media screen and (max-width: 768px) {
+
+  html, body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .main-layout, .content, .sidebar {
+    width: 100% !important;
+    max-width: 100vw !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+    flex-direction: column !important;
+  }
+
+  .home {
+    position: static !important;
+    transform: none !important;
+    width: 100% !important;
+    margin: 0 auto 20px auto !important;
+    padding: 15px 10px !important;
+    font-size: 26px !important;       
+    letter-spacing: 4px !important;    
+    line-height: 1.2 !important;
+    text-align: center !important;
+  }
+
+  /* ROSA NO TAMANHO ORIGINAL, JOGADA PARA O CANTO DIREITO */
+  .rosa-container {
+    position: static !important;
+    transform: scale(0.9) !important;
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 10px 0 10px auto !important;
+    display: block !important;
+    text-align: right !important;
+  }
+
+  .rosa-container img {
+    display: inline-block !important;
+    height: auto !important;
+  }
+
+  /* ELEMENTO DE BAIXO (LOGO) AMPLIADO E EM DESTAQUE */
+  .logo-container {
+    display: block !important;
+    position: static !important;
+    transform: none !important;
+    width: 85% !important; 
+    max-width: 380px !important;
+    height: auto !important;
+    margin: 30px auto !important;
+    text-align: center !important;
+  }
+
+  .logo-container img {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
+  }
+
+  .logo {
+    display: none !important;
+  }
+
+  img, div, section, figure,
+  .galeria-container, .tecnicas, 
+  .fotoreunida, .disco {
+    position: static !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 10px auto !important;
+    transform: none !important;
+    box-sizing: border-box !important;
+  }
+
+  .integrantes h3, .anatomia h2, .estrada h2, .mentes {
+    position: static !important;
+    font-size: 20px !important;
+    text-align: center !important;
+    margin: 20px 0 10px 0 !important;
+    padding: 0 10px !important;
+    width: 100% !important;
+  }
+
+  /* PARÁGRAFOS CENTRALIZADOS NO CELULAR */
+  .integrantes p, .anatomia p, .estrada p, .hist p {
+    position: static !important;
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+    text-align: center !important;
+    margin: 15px auto !important;
+    width: 90% !important;
+    max-width: 600px !important;
+    padding: 0 !important;
+    transform: none !important;
+  }
+
+  .hist h2, .integrantes h2, .riff {
+    position: static !important;
+    font-size: 22px !important;
+    text-align: center !important;
+    margin: 20px 0 !important;
+    padding: 10px !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* SEÇÃO ESTRADA */
+  .estrada {
+    position: static !important;
+    text-align: center !important;
+  }
+
+  .linhaestrada {
+    position: static !important;
+    width: 100% !important;
+    margin: 15px 0 10px 0 !important;
+    transform: none !important;
+  }
+
+  /* CONTAINER DOS ÍCONES (ALINHAMENTO PERFEITO) */
+  .contato {
+    position: static !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px !important;
+    margin: 15px auto 25px auto !important;
+    width: 100% !important;
+  }
+
+  .contato figure,
+  .contato button,
+  .contato a {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    line-height: 0 !important;
+    vertical-align: middle !important;
+  }
+
+  .btn-instagram {
+    display: inline-flex !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .whatsapp, .instagram {
+    position: static !important;
+    display: block !important;
+    width: 48px !important;
+    height: 48px !important;
+    margin: 0 !important;
+    transform: none !important;
+  }
+
+  .whatsapp img, .instagram img {
+    width: 48px !important;
+    height: 48px !important;
+    object-fit: contain !important;
+    display: block !important;
+    margin: 0 !important;
+  }
+
+  .publico {
+    position: static !important;
+    display: block !important;
+    margin: 20px auto !important;
+    width: 100% !important;
+    transform: none !important;
+  }
+
+  .linha, .linhadois, .linhatres {
+    position: static !important;
+    width: 100% !important;
+    margin: 20px 0 !important;
+  }
+}
