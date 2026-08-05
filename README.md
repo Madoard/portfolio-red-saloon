@@ -1,32 +1,32 @@
-# 🎨 Portfólio - Red Saloon
+# 🎨 Portfolio - Red Saloon
 
-Bem-vindo(a) ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para apresentar meus projetos, habilidades e trajetória na área de desenvolvimento.
+Welcome to the repository of my personal portfolio! This project was developed to showcase my projects, skills, and journey in the development field.
 
-## 🚀 Sobre o Projeto
+## 🚀 About the Project
 
-O **Red Saloon** é uma página web criada para centralizar meus trabalhos e servir como um cartão de visitas profissional. O layout foi pensado para ser limpo, responsivo e de fácil navegação.
+**Red Saloon** is a web page created to centralize my work and serve as a professional business card. The layout was designed to be clean, responsive, and easy to navigate.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
-As seguintes tecnologias e ferramentas foram utilizadas na construção do projeto:
+The following technologies and tools were used in the construction of the project:
 
-* **HTML5**: Estruturação semântica das páginas.
-* **CSS3**: Estilização, design responsivo e identidade visual.
-* **Git e GitHub**: Controle de versão e hospedagem do site.
+* **HTML5**: Semantic structuring of the web pages.
+* **CSS3**: Styling, responsive design, and visual identity.
+* **Git & GitHub**: Version control and website hosting.
 
-## 📂 Estrutura do Repositório
+## 📂 Repository Structure
 
-* `index.html`: Arquivo principal contendo a estrutura da página web.
-* `estilo.css`: Arquivo de estilos responsável pelo design e layout.
-* `Elementos/`: Pasta com mídias e recursos visuais utilizados no projeto.
-* `Fontes/`: Arquivos de tipografia personalizados.
+* `index.html`: Main file containing the webpage structure.
+* `estilo.css`: Style sheet responsible for design and layout.
+* `Elementos/`: Folder containing media and visual assets used in the project.
+* `Fontes/`: Custom typography files.
 
-## 🌐 Acesse o Site
+## 🌐 Live Demo
 
-Você pode visualizar o projeto rodando ao vivo através do link abaixo:
+You can view the live project running via the link below:
 
 🔗 [https://madoard.github.io/Portfolio-Red-Saloon/](https://madoard.github.io/Portfolio-Red-Saloon/)
 
 ---
 
-Desenvolvido por **Madoard**.
+Developed by **Madoard**.
