@@ -1,10 +1,10 @@
 # 🎨 Portfolio - Red Saloon
 
-Welcome to the repository of my personal portfolio! This project was developed to showcase my projects, skills, and journey in the development field.
+Welcome to the Red Saloon portfolio repository! This project was developed to show my projects, skills and trajectory in the development area.
 
 ## 🚀 About the Project
 
-**Red Saloon** is a web page created to centralize my work and serve as a professional business card. The layout was designed to be clean, responsive, and easy to navigate.
+**Red Saloon** is a web page created for a heavy metal cover band. The layout is designed to be clean, responsive, and easy to navigate.
 
 ## 🛠️ Technologies Used
 
