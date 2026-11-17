@@ -1,42 +1,57 @@
-°•. ✿ .•° ────── ꒰ 🎀 ꒱ ────── °•. ✿ .•°
+<div align="center">
 
-# ˚₊‧꒰ა 🌸 Portfolio - Red Saloon 🌸 ໒꒱‧₊˚
+  <p>｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ──────────── ꒰ 🎸 ꒱ ──────────── ⋆｡ﾟ☾ ﾟ｡⋆｡☁︎｡ﾟ</p>
 
-> ✧･ﾟ: *✧･ﾟ:* Welcome to the Red Saloon portfolio repository! This project was developed to showcase my projects, skills, and trajectory in the development area. *:･ﾟ✧*:･ﾟ✧
+  <h1>˚₊‧꒰ა 🥀 Portfolio - Red Saloon 🥀 ໒꒱‧₊˚</h1>
 
-‧₊˚✩彡 ──────────── ୨୧ ──────────── ✩彡˚₊‧
+  <p>
+    <i>✧･ﾟ: *✧･ﾟ:* Responsive landing page and promotional showcase built for the heavy metal cover band Red Saloon *:･ﾟ✧*:･ﾟ✧</i>
+  </p>
 
-## ꒰ 🦢 ꒱ About the Project
+  <p>
+    <img src="https://img.shields.io/badge/HTML5-Semantic%20Structure-FFB7C5?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-Responsive%20Design-E6E6FA?style=for-the-badge&logo=css3&logoColor=555555" alt="CSS3" />
+    <img src="https://img.shields.io/badge/Hosted-GitHub%20Pages-FFD1DC?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages" />
+  </p>
 
-**Red Saloon** is a web page created for a heavy metal cover band. The layout is designed to be clean, responsive, and easy to navigate.
+</div>
 
-‧₊˚ ⋅ ─────────────────────── ⋅ ˚₊‧
+<br/>
 
-## 🌷 Technologies Used
+<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
 
-The following technologies and tools were used in the construction of the project:
+### ╰┈➤ ꒰ 🖤 ꒱ About the Project
 
-* ₊˚⊹ **HTML5**: Semantic structuring of the web pages.
-* ₊˚⊹ **CSS3**: Styling, responsive design, and visual identity.
-* ₊˚⊹ **Git & GitHub**: Version control and website hosting.
+**Red Saloon** is a custom web page designed for a heavy metal cover band, focusing on clean visual hierarchy, responsive layout across devices, and intuitive navigation.
 
-‧₊˚ ⋅ ─────────────────────── ⋅ ˚₊‧
+<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
 
-## ೃ⁀➷ Repository Structure
+### ╰┈➤ ꒰ 🎶 ꒱ Technologies Used
 
-* ₊˚⊹ `index.html`: Main file containing the webpage structure.
-* ₊˚⊹ `estilo.css`: Style sheet responsible for design and layout.
-* ₊˚⊹ `Elementos/`: Folder containing media and visual assets used in the project.
-* ₊˚⊹ `Fontes/`: Custom typography files.
+* **₊˚🕯️ HTML5:** Semantic structuring of the web pages and media sections.
+* **₊˚🥀 CSS3:** Custom styling, responsive layout rules, and visual identity.
+* **₊˚🕯️ Git & GitHub Pages:** Version control and live static hosting.
 
-‧₊˚ ⋅ ─────────────────────── ⋅ ˚₊‧
+<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
 
-## ꒰ 🎀 ꒱ Live Demo
+### ╰┈➤ ꒰ 🪩 ꒱ Repository Structure
 
-You can view the live project running via the link below:
+| Path | Vibe | Description |
+| :--- | :---: | :--- |
+| `index.html` | 🎸 | Main file containing the webpage structure |
+| `estilo.css` | 🥀 | Style sheet responsible for design, typography, and layout |
+| `Elementos/` | 🖤 | Folder containing media and visual assets used in the project |
+| `Fontes/` | 🕯️ | Custom typography files |
+
+<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
+
+### ╰┈➤ ꒰ 💌 ꒱ Live Demo
 
 ✧･ﾟ: *✧･ﾟ:* [https://madoard.github.io/Portfolio-Red-Saloon/](https://madoard.github.io/Portfolio-Red-Saloon/) *:･ﾟ✧*:･ﾟ✧
 
-°•. ✿ .•° ────── ꒰ 🎀 ꒱ ────── °•. ✿ .•°
+<br/>
 
-*made with 💗 by **Maria Eduarda Gonçalves***
+<div align="center">
+  <p>°•. 🥀 .•° ────── ꒰ 💗 ꒱ ────── °•. 🥀 .•°</p>
+  <p><i>made with 💗 by <b>Maria Eduarda Gonçalves</b></i></p>
+</div>
