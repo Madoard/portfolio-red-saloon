@@ -1,57 +1,40 @@
 <div align="center">
 
-  <p>｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ──────────── ꒰ 🎸 ꒱ ──────────── ⋆｡ﾟ☾ ﾟ｡⋆｡☁︎｡ﾟ</p>
+  <p>─────────────────────── ✦ ───────────────────────</p>
 
-  <h1>˚₊‧꒰ა 🥀 Portfólio - Red Saloon 🥀 ໒꒱‧₊˚</h1>
+  <h1>˚₊‧꒰ა Sistema de Pedidos de Pizzaria em Python ໒꒱‧₊˚</h1>
 
   <p>
-    <i>✧･ﾟ: *✧･ﾟ:* Landing page responsiva e vitrine promocional criada para a banda cover de heavy metal Red Saloon *:･ﾟ✧*:･ﾟ✧</i>
+    <i>Sistema de pedidos em Python via linha de comando para combinar sabores e tamanhos de pizza com cálculo automático do total.</i>
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/HTML5-Estrutura%20Sem%C3%A2ntica-FFB7C5?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-    <img src="https://img.shields.io/badge/CSS3-Design%20Responsivo-E6E6FA?style=for-the-badge&logo=css3&logoColor=555555" alt="CSS3" />
-    <img src="https://img.shields.io/badge/Hospedagem-GitHub%20Pages-FFD1DC?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages" />
+    <img src="https://img.shields.io/badge/Python-3.x-FFB7C5?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/Controle%20de%20Fluxo-Loops%20%26%20Condicionais-E6E6FA?style=for-the-badge&logoColor=555555" alt="Controle de Fluxo" />
+    <img src="https://img.shields.io/badge/Console-Sistema%20CLI-FFD1DC?style=for-the-badge&logoColor=white" alt="Sistema CLI" />
   </p>
 
 </div>
 
 <br/>
 
-<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
+### ✦ Resumo
 
-### ╰┈➤ ꒰ 🖤 ꒱ Sobre o Projeto
+Permite registrar pedidos de pizza diretamente no terminal escolhendo entre opções salgadas (`PS`) ou doces (`PD`) e tamanhos (`P`, `M` ou `G`), validando entradas, acumulando vários itens na mesma sessão e exibindo o valor final da conta.
 
-**Red Saloon** é uma página web personalizada desenvolvida para uma banda cover de heavy metal, com foco em hierarquia visual clara, layout responsivo entre dispositivos e navegação intuitiva.
+### ✦ Tecnologias
 
-<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
+- **Python 3.x:** Linguagem principal para laços de repetição, estruturas condicionais, tratamento de strings e interação via console (sem bibliotecas externas).
 
-### ╰┈➤ ꒰ 🎶 ꒱ Tecnologias Utilizadas
+### ✦ Regras
 
-- **₊˚🕯️ HTML5:** Estruturação semântica das páginas web e seções de mídia.
-- **₊˚🥀 CSS3:** Estilização personalizada, regras de layout responsivo e identidade visual.
-- **₊˚🕯️ Git & GitHub Pages:** Controle de versão e hospedagem estática ao vivo.
+Os preços variam conforme a categoria (**Salgada `PS`** ou **Doce `PD`**) e o tamanho (**`P`**, **`M`** ou **`G`**):
 
-<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
+| Tamanho | Pizza Salgada (`PS`) | Pizza Doce (`PD`) |
+| :---: | :---: | :---: |
+| **P** *(Pequena)* | `R$ 30,00` | `R$ 34,00` |
+| **M** *(Média)* | `R$ 45,00` | `R$ 48,00` |
+| **G** *(Grande)* | `R$ 60,00` | `R$ 66,00` |
 
-### ╰┈➤ ꒰ 🪩 ꒱ Estrutura do Repositório
-
-| Caminho | Vibe | Descrição |
-| :--- | :---: | :--- |
-| `index.html` | 🎸 | Arquivo principal contendo a estrutura da página web |
-| `estilo.css` | 🥀 | Folha de estilos responsável pelo design, tipografia e layout |
-| `Elementos/` | 🖤 | Pasta contendo mídias e recursos visuais usados no projeto |
-| `Fontes/` | 🕯️ | Arquivos de tipografia personalizada |
-
-<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
-
-### ╰┈➤ ꒰ 💌 ꒱ Demo Online
-
-✧･ﾟ: *✧･ﾟ:* [https://madoard.github.io/Portfolio-Red-Saloon/](https://madoard.github.io/Portfolio-Red-Saloon/) *:･ﾟ✧*:･ﾟ✧
-
-<br/>
-
-<div align="center">
-  <p>°•. 🥀 .•° ────── ꒰ 💗 ꒱ ────── °•. 🥀 .•°</p>
-  <p><i>feito com 💗 por <b>Maria Eduarda Gonçalves</b></i></p>
-</div>
+- Entradas são normalizadas com `.strip().upper()` para aceitar letras minúsculas ou espaços extras.
+- O cliente pode adicionar quantos itens quiser no loop até encerrar o pedido, somando tudo no total.
